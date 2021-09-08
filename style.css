@@ -52,9 +52,9 @@ h3 {
 
 #parallax {
   height: 30em;
-  background-image: url(/assets/Untitled.png);
-  background-repeat: repeat;
-  background-position: center;
+  background-image: url('images/topbg.png');
+  
+  background-position: bottom;
   background-size: cover;
 }
 
@@ -145,7 +145,7 @@ h3 {
   padding: 0px 50px;
 }
 .column-layout-dm {
-  background-colour: black;
+  background-color: black;
 }
 
 .main-column {
