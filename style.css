@@ -198,9 +198,9 @@ h3 {
     
   .navbar-links{
     
-      /*hidden
+      hidden
       display:none;
-      */
+      
       position:absolute;
       background-color: red;
       width:100%;
@@ -232,7 +232,9 @@ h3 {
      
    
   }
+@media (min-width: 900px){
 
+}
 
 
 @media (min-width: 900px) {
