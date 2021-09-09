@@ -8,12 +8,12 @@ function myFunction() {
  
  
  const paralax = document.getElementById
- ("parallax");
+ ("inner");
  
  window.addEventListener("scroll", function()
  {
    let offset =window.pageYOffset;
-   parallax.style.backgroundPositionY = offset *0.9 +"px";
+   inner.style.backgroundPositionY = offset *0.7 +"px";
  }
                         )
  const toggleButton =document.getElementsByClassName('toggle-button') [0]

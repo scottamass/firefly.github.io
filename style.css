@@ -45,21 +45,43 @@ h3 {
   max-width: 100%;
   margin: 0 auto 0 auto;
   /*padding: 20 auto 0 auto;*/
-  padding: 0px 0px 0px 0px;
+  padding: 20px 0px 0px 0px;
   /*background-color: var(--bgsec);*/
   
 }
-
+.navcont{
+ height: 5em; 
+ position: static;
+ display: flex;
+}
 #parallax {
-  height: 30em;
+  display: flex;
+  height: 20em;
   background-image: url('images/topbg.png');
+  padding: 20px 0px 0px 0px;
+  background-attachment: fixed;
   
-  background-position: bottom;
+  background-repeat: no-repeat;
   background-size: cover;
+  justify-content: center;
+  align-items: center;
 }
 
+
 #inner {
+  display: flex;
   color:var(--txt2nd);
+  background-image: url('images/logo.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size:contain;
+  width: 80%;
+  height: 80%;
+  margin-top: auto;
+  margin-left: auto;
+  margin-bottom: auto;
+  margin-right: auto;
+  
 }
 
 .navbar{
@@ -77,10 +99,7 @@ h3 {
   font-size:1.5rem;
   margin: .5rem;
 }
-.navbar-links{
 
-  
-}
 .navbar-links ul{
   display: flex;  
   
