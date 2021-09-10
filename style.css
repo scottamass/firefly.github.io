@@ -54,7 +54,7 @@ h3 {
  position: static;
  display: flex;
 }
-#parallax {
+.parallax {
   display: flex;
   height: 20em;
   background-image: url('images/topbg.png');
