@@ -7,7 +7,7 @@ function myFunction() {
  
  
  
- const parallax = document.getElementByClassName
+ const parallax = document.getElementsByClassName
  ('parallax');
  
  window.addEventListener("scroll", function()
